@@ -1,26 +1,19 @@
 version: 0.0
 os: linux
 files:
-  - source: /WebApplication2/*
+  - source: ./WebApplication2/*
     destination: /home/ec2-user/test
-  - source: WebApplication2.sln
+  - source: ./WebApplication2.sln
     destination: /home/ec2-user
   - source: .gitignore
     destination: /home/ec2-user
-  - source: appspec.yml
+  - source: ./appspec.yml
     destination: /home/ec2-user
-  - source: deletewebsite.ps1
+  - source: ./deletewebsite.ps1
     destination: c:/temp
-  - source: installwebsite.ps1
+  - source: ./installwebsite.ps1
     destination: /temp
-  - source: deletewebsite.bat
+  - source: ./deletewebsite.bat
     destination: /temp
-  - source: installwebsite.bat
+  - source: ./installwebsite.bat
     destination: /temp
-hooks:
-  BeforeInstall:
-    - location: deletewebsite.bat
-      timeout: 180
-  AfterInstall:
-    - location: installwebsite.bat
-      timeout: 180
