@@ -8230,9 +8230,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
-      "projectName": "WebApplication2",
-      "projectPath": "C:\\Users\\User\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\WebApplication2\\WebApplication2\\DSCC.CW1.5529.csproj",
+      "projectName": "DSCC.CW1.5529",
+      "projectPath": "C:\\Users\\User\\source\\repos\\WebApplication2\\WebApplication2\\DSCC.CW1.5529.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\User\\source\\repos\\WebApplication2\\WebApplication2\\obj\\",
       "projectStyle": "PackageReference",
