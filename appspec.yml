@@ -1,6 +1,8 @@
 version: 0.0
 os: linux
 files:
+  - source: WebApplication2/awssiteape
+    destination: /home/ec2-user/awssiteapi
   - source: WebApplication2/
     destination: /home/ec2-user/test
   - source: WebApplication2.sln
