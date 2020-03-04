@@ -17,10 +17,3 @@ files:
     destination: /temp
   - source: installwebsite.bat
     destination: /temp
-hooks:
-  BeforeInstall:
-    - location: deletewebsite.bat
-      timeout: 180
-  AfterInstall:
-    - location: installwebsite.bat
-      timeout: 180
